@@ -505,6 +505,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40a8bb2b4a2a3364f88420605f39d311, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TennisPlayerMovement
+  walkSpeed: 3
+  runSpeed: 6
 --- !u!1 &1823688464
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,13 +593,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823688464}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.073275134, y: 0.92301106, z: -0.12730713, w: 0.35563222}
-  m_LocalPosition: {x: -7.19, y: 12.35, z: 11.7}
+  m_LocalRotation: {x: 0.05949703, y: 0.88054806, z: -0.13429986, w: 0.45062053}
+  m_LocalPosition: {x: -14.43, y: 15.05, z: 16.89}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 16.686, y: 138.25, z: 2.676}
+  m_LocalEulerAnglesHint: {x: 16.866, y: 125.654, z: -0.973}
 --- !u!114 &1823688468
 MonoBehaviour:
   m_ObjectHideFlags: 0
